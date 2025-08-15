@@ -1,0 +1,11 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# IDEs
+.vscode/
+.idea/
