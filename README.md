@@ -37,7 +37,7 @@ module "ec2" {
   name           = "demo-ec2"
   ami_id         = data.aws_ami.al2023.id
   instance_type  = "t3.micro"
-  subnet_id      = "subnet-xxxxxxxx"
+  subnet_id      = "subnet-0ac19a8ca72369eef"
   key_name       = "your-keypair-name"     # optional
   associate_public_ip = true               # set false for private subnets
 
