@@ -25,7 +25,7 @@ module "ec2" {
   name                  = "my-ec2-demo"
   ami_id                = data.aws_ami.al2023.id
   instance_type         = "t3.micro"
-  subnet_id             = "subnet-xxxxxxxx"
+  subnet_id             = "subnet-0ac19a8ca72369eef"
   create_security_group = true
   allowed_ssh_cidr      = ["0.0.0.0/0"]
   tags = {
